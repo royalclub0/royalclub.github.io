@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+html{
+    font-family: 'Bitter';
+    font-size: 16px;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 792px;
+    width: 100%;
+}
+#first .first h1{
+    text-align: center;
+    color: gold;
+    font-size: 5rem;
+    padding-bottom: 10px;
+    font-family: 'Pacifico';
+}
+span{
+    color: gold;
+}
+@media only screen and (max-width: 760px){
+    #first{
+        height: 762px;
+    }
+}
+#second {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282525;
+    color: white;
+    width: 100%;
+    
+}
+#second .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+#second .main .second{
+    flex-direction: row;
+    width: 300px;
+    text-align: center;
+}
+#second .main .video img{
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 300px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 760px){
+    #second .main{
+        flex-direction: column;
+    }
+    #second .second{
+        width: 300px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+.collection{
+    background-color: #282525;
+}
+.collection .h2{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: gold;
+    font-size: 4rem;
+}
+.collection .cars{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+.collection .cars .images img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+}
+@media only screen and (max-width:760px) {
+    .collection .cars .images img{
+        margin-top: 10px;
+    }
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-color: black;
+}
+footer .ft{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+footer .ft h3{
+    color: gold;
+    font-size: 1.5rem;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
